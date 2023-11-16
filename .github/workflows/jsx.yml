@@ -24,16 +24,6 @@ jobs:
         run: |
           chmod +x ru.sh
           ./ru.sh
-     
-      - name: TSX
-        run: |
-          chmod +x run.sh
-          ./run.sh
-          
-      - name: MSX
-        run: |
-          chmod +x r.sh
-          ./r.sh
           
       - name: Commit changes
         run: |
