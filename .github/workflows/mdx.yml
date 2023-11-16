@@ -23,7 +23,7 @@ jobs:
       - name: Retry on Bad Gateway
         run: |
           chmod +x r.sh
-          ./run.sh
+          ./r.sh
           
       - name: Commit changes
         run: |
