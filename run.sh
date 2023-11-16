@@ -8,7 +8,7 @@ while true; do
     else
         echo "Request successful."
         # Do something with the response (e.g., update the file)
-        echo "$response" >> Update.tsx
+        echo "$response" > Update.tsx
         break
     fi
 done
