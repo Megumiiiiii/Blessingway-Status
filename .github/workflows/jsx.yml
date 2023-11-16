@@ -1,0 +1,49 @@
+name: Auto commit
+
+on:
+
+  push:
+    branches:
+      - master
+      
+  schedule:
+  - cron: "*/12 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+
+jobs:
+  auto_commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: DEBUG 
+        run: echo "::debug::Ref = ${{github.ref}}"
+      - uses: actions/checkout@v3      
+        with:
+         persist-credentials: false
+         fetch-depth: 0
+
+      - name: Retry on Bad Gateway
+        run: |
+          chmod +x r.sh
+          ./run.sh
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "contact@megumii.xyz"
+          git config --local user.name "Megumiiiiii"
+          git add -A
+          
+          arr[0]="📊 auto commit"
+          arr[1]="🌄 auto commit"
+          arr[2]="🌸 auto commit"
+          arr[3]="♣️ auto commit"
+          arr[4]="🔱 auto commit"
+          arr[5]="🧮 auto commit"
+          
+          rand=$[$RANDOM % ${#arr[@]}]
+          
+          git commit -m "${arr[$rand]}"
+          
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          directory: "."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
