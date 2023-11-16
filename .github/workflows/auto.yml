@@ -7,7 +7,7 @@ on:
       - master
       
   schedule:
-  - cron: "*/12 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
+  - cron: "*/20 * * * *" # See https://crontab.guru/#0_7,9,11_*_*_1,3
 
 jobs:
   auto_commit:
@@ -27,7 +27,7 @@ jobs:
 
       - name: Sleep
         run: |
-          sleep 30
+          sleep 60
           
       - name: TSX
         run: |
@@ -36,7 +36,7 @@ jobs:
 
       - name: Sleep
         run: |
-          sleep 30
+          sleep 60
 
       - name: MDX
         run: |
