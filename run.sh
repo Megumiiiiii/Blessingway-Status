@@ -1,14 +1,10 @@
 #!/bin/bash
 
-while true; do
-    response=$(curl -k -f https://blessingway.xyz 2>&1)
-    if [[ $response == *"502"* ]]; then
-        echo "Received Bad Gateway error. Retrying in 30 seconds..."
-        sleep 30
-    else
-        echo "Request successful."
-        # Do something with the response (e.g., update the file)
-        echo "$response" > Update.tsx
-        break
-    fi
-done
+# Menjalankan perintah curl dan menyimpan outputnya ke dalam file Update.tsx
+curl_output=$(curl -f https://blessingway.xyz 2>&1)
+
+# Menyimpan hasil output curl ke dalam file Update.tsx
+echo "$curl_output" > Update.tsx
+
+# Menambahkan pesan bahwa Update.tsx telah diperbarui
+echo "Check Update.tsx." 
