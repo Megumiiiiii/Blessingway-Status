@@ -24,6 +24,24 @@ jobs:
         run: |
           chmod +x ru.sh
           ./ru.sh
+
+      - name: Sleep
+        run: |
+          sleep 30
+          
+      - name: TSX
+        run: |
+          chmod +x run.sh
+          ./run.sh
+
+      - name: Sleep
+        run: |
+          sleep 30
+
+      - name: MDX
+        run: |
+          chmod +x r.sh
+          ./r.sh
           
       - name: Commit changes
         run: |
