@@ -20,10 +20,20 @@ jobs:
          persist-credentials: false
          fetch-depth: 0
 
-      - name: Retry on Bad Gateway
+      - name: JSX
+        run: |
+          chmod +x ru.sh
+          ./ru.sh
+     
+      - name: TSX
+        run: |
+          chmod +x run.sh
+          ./run.sh
+          
+      - name: MSX
         run: |
           chmod +x r.sh
-          ./run.sh
+          ./r.sh
           
       - name: Commit changes
         run: |
