@@ -262,3 +262,7 @@
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   213  100   213    0     0    317      0 --:--:-- --:--:-- --:--:--   316
 {"network":"arweave.N.1","version":5,"release":66,"height":1304493,"current":"NaOa1vbUHK3cG9QyW_TVeTU_TP5Bnyz2TfXqk-I8KqXXsfslDaHPG1sIcl_EHuJC","blocks":1304494,"peers":108,"queue_length":0,"node_state_latency":0}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   213  100   213    0     0    514      0 --:--:-- --:--:-- --:--:--   514
+{"network":"arweave.N.1","version":5,"release":66,"height":1304505,"current":"Ev9wrdq69SwqoX8NdwR4TZof74ZaQLpAwRHvpp7Ud9Rmapa8yDp7E3IHOsAx49o5","blocks":1304506,"peers":109,"queue_length":0,"node_state_latency":0}
