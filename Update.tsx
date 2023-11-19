@@ -666,3 +666,7 @@ curl: (28) Failed to connect to blessingway.xyz port 443 after 130423 ms: Connec
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   213  100   213    0     0    317      0 --:--:-- --:--:-- --:--:--   316
 {"network":"arweave.N.1","version":5,"release":66,"height":1305544,"current":"U1DzNpvh7CcZ3d9WKSDd1eCeFBkov9Ta4WamX_lsJGYbKJAn1_GH8BmjnjFmt-9k","blocks":1305545,"peers":112,"queue_length":0,"node_state_latency":0}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   213  100   213    0     0    366      0 --:--:-- --:--:-- --:--:--   366
+{"network":"arweave.N.1","version":5,"release":67,"height":1305565,"current":"6dqJaDm7LfCdT38wakZ5qbvG7WQGwoNuyb3wWur7518RVI4TvZ6avcUwh1N_3jvG","blocks":1305566,"peers":139,"queue_length":0,"node_state_latency":1}
