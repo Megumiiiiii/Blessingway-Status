@@ -5110,3 +5110,7 @@ curl: (28) Failed to connect to blessingway.xyz port 443 after 130677 ms: Connec
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    99  100    99    0     0    145      0 --:--:-- --:--:-- --:--:--   145
 {"uptime":1573009.131624714,"message":"Welcome to the Permaweb.","date":"2023-12-06T18:32:54.819Z"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    99  100    99    0     0    262      0 --:--:-- --:--:-- --:--:--   262100    99  100    99    0     0    262      0 --:--:-- --:--:-- --:--:--   262
+{"uptime":1573830.431992903,"message":"Welcome to the Permaweb.","date":"2023-12-06T18:46:36.120Z"}
