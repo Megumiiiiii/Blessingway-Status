@@ -8950,3 +8950,7 @@ curl: (22) The requested URL returned error: 504
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    94  100    94    0     0    132      0 --:--:-- --:--:-- --:--:--   132
 {"uptime":60.780241485,"message":"Welcome to the Permaweb.","date":"2023-12-21T11:47:39.552Z"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    94  100    94    0     0    228      0 --:--:-- --:--:-- --:--:--   228
+{"uptime":45.007735544,"message":"Welcome to the Permaweb.","date":"2023-12-21T12:29:31.249Z"}
