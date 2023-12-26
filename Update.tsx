@@ -10458,3 +10458,7 @@ curl: (22) The requested URL returned error: 502
                                  Dload  Upload   Total   Spent    Left  Speed
   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    95  100    95    0     0    170      0 --:--:-- --:--:-- --:--:--   169
 {"uptime":149.553401777,"message":"Welcome to the Permaweb.","date":"2023-12-26T22:05:56.196Z"}
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    94  100    94    0     0    128      0 --:--:-- --:--:-- --:--:--   128
+{"uptime":186.67799228,"message":"Welcome to the Permaweb.","date":"2023-12-26T22:26:54.903Z"}
